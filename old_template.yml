@@ -1,0 +1,53 @@
+jtex: v1
+title: 'Goe_Template'
+description: 'Uni Goe Masters Template'
+version: 1.0.0
+license: TODO
+source: 'https://example.com/author-guidelines/latex-submission'
+thumbnail: ./thumbnail.png
+authors:
+  - name: 'Mubarrat Mahin Mursalin'
+    website: 'https://example.com'
+    affiliations:
+      - 'Georg August Universitat Goettingen'
+tags:
+  - Thesis
+parts:
+  - id: abstract
+    required: true
+    description: >
+      A good abstract will begin with a short description of the problem being
+      addressed, briefly describe the new data or analyses, then briefly states
+      the main conclusion(s) and how they are supported and uncertainties.
+doc:
+  - id: title
+    required: true
+  - id: bibliography
+options:
+  - type: boolean
+    id: draft
+    description: Mark the document as draft
+files:
+  - ./original/template.tex
+  - ./original/datenumber.sty
+  - ./original/figures/Logo_Uni_Goettingen.eps
+  - ./original/figures/Logo_Uni_Goettingen.pdf
+  - ./original/figures/bild.eps
+  - ./original/figures/bild.pdf
+packages:
+  - setspace
+  - babel
+  - calc
+  - fontenc
+  - inputenc
+  - amsmath
+  - amssymb
+  - lmodern
+  - natbib
+  - booktabs
+  - longtable
+  - array
+  - textcomp
+  - gensymb
+  - units
+  - hyperref

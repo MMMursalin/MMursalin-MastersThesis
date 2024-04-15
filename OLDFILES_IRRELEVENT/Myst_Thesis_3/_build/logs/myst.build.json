@@ -1,0 +1,39 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "pdf": false,
+      "tex": false,
+      "typst": false,
+      "docx": true,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864
+    },
+    "performSiteBuild": false
+  },
+  "exports": [
+    {
+      "format": "docx",
+      "output": "/home/mahin/Desktop/Masters_Thesis/Thesis/Myst_Thesis/_build/exports/draft3.docx",
+      "articles": [
+        {
+          "file": "/home/mahin/Desktop/Masters_Thesis/Thesis/Myst_Thesis/draft3.md",
+          "level": 0
+        }
+      ],
+      "$file": "/home/mahin/Desktop/Masters_Thesis/Thesis/Myst_Thesis/draft3.md",
+      "$project": "/home/mahin/Desktop/Masters_Thesis/Thesis/Myst_Thesis"
+    }
+  ]
+}

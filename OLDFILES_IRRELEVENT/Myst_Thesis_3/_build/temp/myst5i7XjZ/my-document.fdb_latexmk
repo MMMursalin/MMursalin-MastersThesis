@@ -1,0 +1,9 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "my-document.xdv" "my-document.pdf" "my-document" 0
+  "my-document.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "my-document.pdf"
+["xelatex"] 1710515115 "my-document.tex" "my-document.xdv" "my-document" 1710515115
+  (generated)
+  "my-document.log"
+  "my-document.xdv"

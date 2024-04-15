@@ -1,0 +1,40 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "pdf": true,
+      "tex": false,
+      "typst": false,
+      "docx": false,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864
+    },
+    "performSiteBuild": false
+  },
+  "exports": [
+    {
+      "format": "pdf",
+      "output": "/home/mahin/Desktop/Masters_Thesis/Thesis/Draft4/exports/my-document.pdf",
+      "template": "plain_latex_book",
+      "articles": [
+        {
+          "file": "/home/mahin/Desktop/Masters_Thesis/Thesis/Draft4/draft4.md",
+          "level": 0
+        }
+      ],
+      "$file": "/home/mahin/Desktop/Masters_Thesis/Thesis/Draft4/draft4.md",
+      "$project": "/home/mahin/Desktop/Masters_Thesis/Thesis/Draft4"
+    }
+  ]
+}

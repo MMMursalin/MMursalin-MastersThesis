@@ -1,0 +1,128 @@
+\NeedsTeXFormat{LaTeX2e}[2005/12/01]
+
+%%----- Doc -----
+\documentclass[master,
+               twoside,
+               BCOR10mm,
+               english,english,
+               english,english
+               final,
+               ]{GAUBM}
+
+
+
+
+%%----- IMPORTS -----
+\usepackage{setspace}
+\usepackage{babel}
+\usepackage{calc}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage[comma,numbers,sort&compress]{natbib}
+\bibliographystyle{plainnat}
+\newcommand{\tabheadfont}[1]{\textbf{#1}}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{textcomp,gensymb}
+\usepackage{units}
+\usepackage[pdfstartview=FitH,      % Open with fit width
+            breaklinks=true,        % Breaks in links, only with pdflatex default
+            bookmarksopen=true,     % Expanded bookmarks
+            bookmarksnumbered=true  % Chapter numbering in bookmarks
+            ]{hyperref}
+
+
+\begin{document}
+
+
+
+%%-----More Doc-----
+
+
+
+\ThesisAuthor{Mubarrat Mahin}{Mursalin}
+\PlaceOfBirth{Rajshahi, Bangladesh}
+\ThesisTitle{Here stands the topic of the thesis in German}{}
+\FirstReferee[Dr.\ \ldots]{Prof.\ Dr.\ \dots}
+\Institute{Institute of Theoretical Physics}
+\SecondReferee{Prof.\ Dr.\ \dots}
+\ThesisBegin{1}{4}{2009}
+\ThesisEnd{15}{7}{2009}
+
+\frontmatter
+\maketitle
+\cleardoublepage
+
+
+%%----- Contents -----
+
+\begin{abstract}
+  Here, the core statements of the thesis are summarized on half a page.
+  \bigskip\par
+  \textbf{Keywords:} Physics, Master's Thesis
+\end{abstract}
+
+\cleardoublepage
+\onehalfspacing
+
+\tableofcontents
+
+\begin{nomenclature}
+
+\section*{Variable Definitions}
+\noindent
+\begin{longtable}[l]{p{0.2\textwidth}p{0.7\textwidth-6\tabcolsep}p{0.1\textwidth}}
+  \tabheadfont{Variable}&\tabheadfont{Meaning}&\tabheadfont{Unit}\\\midrule\endhead
+  $A$ & Cross-sectional area & $\unit{m^2}$\\
+  $c$ & Speed & $\unitfrac{m}{s}$
+\end{longtable}
+
+\section*{Abbreviation Definitions}
+\begin{longtable}[l]{p{0.2\textwidth}p{0.8\textwidth-4\tabcolsep}}
+  \tabheadfont{Abbreviation}&\tabheadfont{Meaning}\\\midrule\endhead
+  2D & two-dimensional\\
+  3D & three-dimensional\\
+  max & maximum
+\end{longtable}
+\end{nomenclature}
+
+
+\mainmatter   %% Beginning of the main part
+\chapter{Introduction}
+INTRODUCTION TEXT HERE
+%%----- IMPORTS -----
+\chapter{Background and Theory}
+THEORY HERE
+
+\chapter{Methods}
+METHODS
+
+\chapter{Results}
+RESULTS
+
+\chapter{Discussions}
+DISCUSSION
+
+\chapter{Conclusions}
+CONCLUSIONS
+
+\appendix
+\chapter{Appendix}
+
+
+
+\cleardoublepage
+
+\bibliography{bthesis_database}
+
+\chapter*{Acknowledgments}
+THANKS
+
+%% This command MUST be at the end and generates the declaration about the
+%% means used
+\Declaration
+\end{document}
